@@ -2,35 +2,35 @@
 
 ## Table of Contents
 
-1 . [VIRTUALIZATION ](#1VIRTUALIZATION )
+1 . [VIRTUALIZATION](#1VIRTUALIZATION)
 
-2 . [CentOS vs Debian difference ](#2CentOSvsDebian )
+2 . [CentOS vs Debian difference](#2CentOSvsDebian)
 
-3 . [HYPERVISOR ](#3HYPERVISOR )
+3 . [HYPERVISOR](#3HYPERVISOR)
 
-4 . [Partition ](#4Partition )
+4 . [Partition](#4Partition)
 
-5 . [Boot sequence in linux ](#Bootsequenceinlinux )
+5 . [Boot sequence in linux](#Bootsequenceinlinux)
 
-6 . [Disk Encryption in a Linux Environment ](#DiskEncryptioninaLinuxEnvironment )
+6 . [Disk Encryption in a Linux Environment](#DiskEncryptioninaLinuxEnvironment)
 
-7  . [DPKG – Debian Package Management System ](#DPKG–DebianPackageManagementSystem )
+7  . [DPKG – Debian Package Management System](#DPKG–DebianPackageManagementSystem)
 
-8  . [Access Control ](#AccessControl )
+8  . [Access Control](#AccessControl)
 
-9  . [sudo ](#sudo )
+9  . [sudo](#sudo)
 
-10  . [Filesystem Hierarchy Standard ](#AFilesystemHierarchyStandard )
+10  . [Filesystem Hierarchy Standard](#AFilesystemHierarchyStandard)
 
-11  . [PAM  ](#PAM  )
+11  . [PAM](#PAM)
 
-12  . [SSH ](#SSH )
+12  . [SSH](#SSH)
 
-13  . [UFW ](#UFW )
+13  . [UFW](#UFW)
 
-14  . [Script monitoring ](#Scriptmonitoring )
+14  . [Script monitoring](#Scriptmonitoring)
 
-15  . [some commande to check  ](#somecommandetocheck  )
+15  . [some commande to check](#somecommandetocheck)
 
 
 
