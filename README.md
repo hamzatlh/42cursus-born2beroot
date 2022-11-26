@@ -24,6 +24,7 @@
 
 9  . [sudo ](#sudo )
 
+10  . [Filesystem Hierarchy Standard ](#AFilesystemHierarchyStandard )
 
 
 
@@ -264,7 +265,7 @@ AppArmor is a Linux security module that allows system administrators to limit a
 There are two modes, enforce mode and complain mode. Enforce mode denies access to unauthorized files, complain mode does not actually provide security, and App Armor leaves a log when the application does something other than what it should do.
 sudo aa-status : check apparmor status
 
-9)sudo
+## 9)sudo
 
 Sudo (su “do”) allows a system administrator to give certain users (or groups of users) the ability to run some (or all) commands as root while logging all commands and arguments. Sudo operates on a per-command basis, it is not a replacement for the shell.
 sudo is a so called "SetUID binary", as you can see in the output of ls -l:
@@ -295,7 +296,7 @@ If you enter cd /var/log/sudo with root authority and vi 00, the log comes out!
 A tty is a regular terminal device (the console on your server, for example).
 A pts is a psuedo terminal slave (an xterm or an ssh connection).
 
-10)Filesystem Hierarchy Standard
+## 10)Filesystem Hierarchy Standard
 
 The Filesystem Hierarchy Standard (FHS) is a reference describing the conventions used for the layout of a UNIX system. It has been made popular by its use in Linux distributions, but it is used by other UNIX variants as well.[1] It is maintained by the Linux Foundation.
 
