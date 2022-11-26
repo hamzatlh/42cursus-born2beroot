@@ -6,6 +6,7 @@
 
 2 . [CentOS vs Debian difference](#2CentOSvsDebian)
 
+   --[***An explanation of OS selection (Debian)](#3Debian)
 
 
 
@@ -60,7 +61,7 @@ Debian: Defaults to EXT4
 centos : A distribution that takes Red Hat's public RHEL (radhat enterprise linux) and removes only Red Hat's brand and logo and distributes it. It can be used for free, but in case of problems, it is supported through the community rather than Red Hat, so patching is somewhat slow.
 Debian: strong in community as long as it's old.
 
-***An explanation of OS selection (Debian)
+## ***An explanation of OS selection (Debian)
 
 It is a free and open source Linux distribution, maintained by the community. Debian is one of the oldest OS based on the Linux kernel. Debian is an open operating system created and distributed by the Debian Project. A special feature of Debian is the simplicity of installing and upgrading packages. Once installed, if you use a package manager such as apt, it automatically checks dependencies with other packages and updates related to security in installing or updating software. Debian is available on a variety of hardware, from network attached storage to phones, laptops, desktops and servers. Debian focuses on stability and security and serves as the basis for many other Linux distributions.
 
