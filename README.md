@@ -6,13 +6,9 @@
 
 2 . [CentOS vs Debian difference ](#2CentOSvsDebian )
 
-   [***An explanation of OS selection (Debian)](#3Debian )
-
 3 . [HYPERVISOR ](#3HYPERVISOR )
 
 4 . [Partition ](#4Partition )
-
-   [***LVM ](#5**LVM )
 
 5 . [Boot sequence in linux ](#Bootsequenceinlinux )
 
