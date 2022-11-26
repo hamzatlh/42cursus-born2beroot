@@ -220,7 +220,7 @@ The apt tool works with many commands. The following table provides the most com
 
 | Command      | Description |
  
-|--------------|-------------|           
+| ------------ | ------------- |           
 
 | update       | Gets the info about the latest versions of available packages but does not install any upgrades.
 
