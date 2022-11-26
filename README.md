@@ -2,11 +2,11 @@
 
 ## Table of Contents
 
-1 . [VIRTUALIZATION](#1VIRTUALIZATION)
+1 . [VIRTUALIZATION ](#1VIRTUALIZATION )
 
-2 . [CentOS vs Debian difference](#2CentOSvsDebian)
+2 . [CentOS vs Debian difference ](#2CentOSvsDebian )
 
-   [***An explanation of OS selection (Debian)](#3Debian)
+   [***An explanation of OS selection (Debian)](#3Debian )
 
 3 . [HYPERVISOR ](#3HYPERVISOR )
 
@@ -14,10 +14,11 @@
 
    [***LVM ](#5**LVM )
 
-5 . [Boot sequence in linux](#Bootsequenceinlinux)
+5 . [Boot sequence in linux ](#Bootsequenceinlinux )
 
-5 . [Disk Encryption in a Linux Environment](#DiskEncryptioninaLinuxEnvironment)
+6 . [Disk Encryption in a Linux Environment ](#DiskEncryptioninaLinuxEnvironment )
 
+7  . [DPKG – Debian Package Management System ](#DPKG–DebianPackageManagementSystem )
 
 
 
@@ -202,7 +203,7 @@ Cryptsetup is the command line tool to interface with dm-crypt for creating, acc
 When formatting a LVM volume, you can choose between encrypted LVM or not encrypted LVM. To protect the confidentiality of your valuable data, for instance in the event of the loss or theft of your computer or storage, such as volume, solid state disk, or hard drive, when formatting a LVM volume it is suggested to consider formatting it using the encrypted LVM option.
 <!> If you choose the encrypted LVM option, it is suggested to consider creating backup passwords. So that recovery is quick and easy :) Otherwise it the event that somehow your password is not working, you risk permanently losing all your valuable data. It is surprisingly frequent that people lose all their data because somehow their password is no longer working, and they did not created backup passwords. Encrypted LVM is very strong, so if somehow you locked yourself out, unless you have backup passwords it is likely that you would be permanently locked out :(
 
-7)DPKG – Debian Package Management System
+## 7)DPKG – Debian Package Management System
 Dpkg is a base package management system for the Debian Linux family, it is used to install, remove, store and provide information about .deb packages.
 It is a low-level tool and there are front-end tools that help users to obtain packages from remote repositories and/or handle complex package relations and these include:
 **APT (Advanced Packaging Tool)
