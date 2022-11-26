@@ -12,6 +12,7 @@
 
 4 . [Partition ](#4Partition )
 
+   -[**LVM ](#5**LVM )
 
 
 
@@ -99,7 +100,7 @@ Disk partitioning is the creation of one or more storage regions (called partiti
    /dev/sda5      The 1st logical partition
    /dev/sda6      The 2nd logical partition
    etc...
-**LVM
+## **LVM
 Logical Volume Manager: Part of the kernel for efficient and flexible management of Linux's storage space.
 LVM treats storage as units called volumes instead of partitions.
 PV (Physical Volume) is collected to create VG (Volume Group), and then divided into LV (Logical Volume) for use by the user.
