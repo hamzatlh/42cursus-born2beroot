@@ -16,6 +16,9 @@
 
 5 . [Boot sequence in linux](#Bootsequenceinlinux)
 
+5 . [Disk Encryption in a Linux Environment](#DiskEncryptioninaLinuxEnvironment)
+
+
 
 
 
@@ -190,7 +193,7 @@ There are numbers right next to S and K in the program names. Those are the sequ
 For example, S12syslog is to start the syslog deamon, which has the sequence number of 12. S80sendmail is to start the sendmail daemon, which has the sequence number of 80. So, syslog program will be started before sendmail.
 There you have it. That is what happens during the Linux boot process.
 
-6)Disk Encryption in a Linux Environment
+## 6)Disk Encryption in a Linux Environment
 
 If you are using the Linux operating system, you can secure your data by configuring disk encryption to encrypt whole disks (including removable media), partitions, software RAID volumes, logical volumes, as well as your NoSQL files.
 dm-crypt is the Linux kernel's device mapper crypto target which provides transparent disk encryption subsystem in the Linux kernel using the kernel crypto API.
