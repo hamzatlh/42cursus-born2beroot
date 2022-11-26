@@ -14,7 +14,7 @@
 
    [***LVM ](#5**LVM )
 
-
+5 . [Boot sequence in linux](#Bootsequenceinlinux)
 
 
 
@@ -107,7 +107,7 @@ PV (Physical Volume) is collected to create VG (Volume Group), and then divided 
 If the conventional method reads and writes the file system by directly accessing the block device, LVM reads and writes the file system to a virtual block device created by LVM.
 In this way, LVM creates an abstraction layer above physical storage, allowing the creation of logical storage (virtual block devices). It provides flexibility in various aspects compared to using direct physical storage, such as flexible capacity control, resizable storage pools, convenient device naming, disk striping, and mirror volumes.
 
-*PV PE VG LV LEThere are five main terms
+*PV PE VG LV LE There are five main terms
 PV is a physical volume, and in born2beroot, /dev/sda1it means a place that actually physically occupies storage space.
 PE means PV a block of a certain size constituting each . LV it is the same LE structure as , but it corresponds to double LE and one-to-one.
 VG is an abbreviation of volume group, and can be created PV as a set of groups initialized with VG.
@@ -124,7 +124,7 @@ Stripe LV does not write data in a linear fashion, but reads/writes data in para
             Situations where you want to combine multiple disk spaces and use them as one.
             When you want to utilize disk partitions with ambiguous space.
             When you want to expand existing disk space.
-5)Boot sequence in linux
+## 5)Boot sequence in linux
 Have you ever wondered what happens behind the scenes from the time you press the power button until the Linux login prompt appears?
 The following are the 6 high level stages of a typical Linux boot process.
 
