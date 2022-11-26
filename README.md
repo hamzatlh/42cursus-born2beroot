@@ -2,7 +2,7 @@
 
 ## Table of Contents
 1 . [VIRTUALIZATION](#1VIRTUALIZATION)
-2 . [CentOS vs Debian difference](#2CentOS vs Debian difference)
+2 . [CentOS vs Debian difference](#2CentOSvsDebian difference)
 
 
 
@@ -39,7 +39,7 @@ It is not a real physical computer, but it works like a real computer and implem
 Virtualization methods include emulation, virtualization, and paravirtualization, and a virtual machine corresponds to emulation.
 Software, here called a hypervisor , separates the virtual machine's resources from the hardware and provisions them appropriately, making them available to the VM.
 
-## 2)CentOS vs Debian difference
+## 2)CentOS vs Debian difference :
 
 both linux operating systems
 *Red Hat series ⇒ centos
