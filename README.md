@@ -10,6 +10,7 @@
 
 3 . [HYPERVISOR ](#3HYPERVISOR )
 
+4 . [Partition ](#4Partition )
 
 
 
@@ -84,7 +85,7 @@ Type 2 hypervisors, also called host hypervisors, run as a software layer or app
 It works by abstracting the guest operating system from the host operating system. VM resources are scheduled according to the host operating system and then run against the hardware. 
 Type 2 hypervisors are ideal for home users who want to run multiple operating systems on their personal computers. 
 
-4)Partition
+## 4)Partition
 Disk partitioning is the creation of one or more storage regions (called partitions), so that each region can be managed separately. It is typically the first step of preparing a newly installed disk, before any file system is created. The disk stores the information about the partitions' locations and sizes in an area known as the partition table that the operating system reads before any other part of the disk. Each partition then appears to the operating system as a distinct "logical" disk that uses part of the actual disk.
 *Primary partition - A disk can have up to 4 primary partitions. It cannot have more that 4 due to limitations of the disk primary partition table. To get around this limitation, an extended partition may be used.
 *Extended partition - A special primary partition that is subdivided into logical partitions. There can be no more than 1 extended partition on a disk.
