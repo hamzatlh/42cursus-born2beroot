@@ -4,23 +4,23 @@
 
 1 . [VIRTUALIZATION](#1VIRTUALIZATION)
 
-2 . [CentOS vs Debian difference](#2CentOSvsDebian)
+2 . [CentOS vs Debian difference](#2CentOS-vs-Debian)
 
 3 . [HYPERVISOR](#3HYPERVISOR)
 
 4 . [Partition](#4Partition)
 
-5 . [Boot sequence in linux](#Bootsequenceinlinux)
+5 . [Boot sequence in linux](#Boot-sequence-in-linux)
 
-6 . [Disk Encryption in a Linux Environment](#DiskEncryptioninaLinuxEnvironment)
+6 . [Disk Encryption in a Linux Environment](#Disk-Encryption-in-a-Linux-Environment)
 
-7  . [DPKG – Debian Package Management System](#DPKG–DebianPackageManagementSystem)
+7  . [DPKG – Debian Package Management System](#DPKG–Debian-Package-Management-System)
 
-8  . [Access Control](#AccessControl)
+8  . [Access Control](#Access-Control)
 
 9  . [sudo](#sudo)
 
-10  . [Filesystem Hierarchy Standard](#AFilesystemHierarchyStandard)
+10  . [Filesystem Hierarchy Standard](#A-File-system-Hierarchy-Standard)
 
 11  . [PAM](#PAM)
 
@@ -28,9 +28,9 @@
 
 13  . [UFW](#UFW)
 
-14  . [Script monitoring](#Scriptmonitoring)
+14  . [Script monitoring](#Script-monitoring)
 
-15  . [some commande to check](#somecommandetocheck)
+15  . [some commande to check](#some-commande-to-check)
 
 ## 1)VIRTUALIZATION :
 Virtual Machine (VM) is a virtual environment built on a physical hardware system, with its own CPU, memory, network interfaces, and storage, and acting as a virtual computer system.
