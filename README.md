@@ -6,7 +6,7 @@
 
 2 . [CentOS vs Debian difference](#2CentOSvsDebian)
 
-   --[***An explanation of OS selection (Debian)](#3Debian)
+   	--[***An explanation of OS selection (Debian)](#3Debian)
 
 
 
