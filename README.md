@@ -8,6 +8,7 @@
 
    [***An explanation of OS selection (Debian)](#3Debian)
 
+3 . [HYPERVISOR ](#3HYPERVISOR )
 
 
 
@@ -65,7 +66,7 @@ Debian: strong in community as long as it's old.
 
 It is a free and open source Linux distribution, maintained by the community. Debian is one of the oldest OS based on the Linux kernel. Debian is an open operating system created and distributed by the Debian Project. A special feature of Debian is the simplicity of installing and upgrading packages. Once installed, if you use a package manager such as apt, it automatically checks dependencies with other packages and updates related to security in installing or updating software. Debian is available on a variety of hardware, from network attached storage to phones, laptops, desktops and servers. Debian focuses on stability and security and serves as the basis for many other Linux distributions.
 
-3)HYPERVISOR :
+## 3)HYPERVISOR :
 A hypervisor is software that creates and runs virtual machines (VMs) . A hypervisor, also called a virtual machine monitor (VMM), separates the hypervisor operating system and virtual machine resources to support the creation and management of VMs.
 The physical hardware used as the hypervisor is called the host, and the multiple VMs using its resources are called guests.
 A hypervisor is a pool that addresses resources such as CPU, memory, and storage that can be easily relocated between existing guests or to new virtual machines.
