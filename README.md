@@ -218,18 +218,28 @@ In all, Aptitude is a higher-level package managers that abstracts low level det
 
 The apt tool works with many commands. The following table provides the most common examples.
 
-*Command	                                                     *Description
-update	                                Gets the info about the latest versions of available packages but does not install any upgrades.
-upgrade	                                Downloads the up-to-date package versions and upgrades installed packages to the new version.
-full-upgrade	                          Upgrades the currently installed packages and removes packages not needed for the full system upgrade.
-install	                                Installs a specified package from the repository.
-remove	                                Deletes a package but leaves configuration files.
-purge	                                   Deletes a package and any configuration files.
-autoremove	                             Removes no longer required dependencies.
-list	                                   Lists all available packages or packages according to specific criteria.
-search	                                Searches for packages whose name or description contains the search term.
-show	                                   Prints details about a specific package.
-
+| Command | Description |
+  ---
+| update  | Gets the info about the latest versions of available packages but does not install any upgrades.
+  ---
+| upgrade | Downloads the up-to-date package versions and upgrades installed packages to the new version.
+  ---
+| full-upgrade | Upgrades the currently installed packages and removes packages not needed for the full system upgrade.
+  ---
+| install | Installs a specified package from the repository.
+  ---
+| remove  | Deletes a package but leaves configuration files.
+  ---
+| purge | Deletes a package and any configuration files.
+  ---
+| autoremove | Removes no longer required dependencies.
+  ---
+| list | Lists all available packages or packages according to specific criteria.
+  ---
+| search | Searches for packages whose name or description contains the search term.
+  ---
+| show | Prints details about a specific package.
+  ----
 ## 8)Access Control
 
 In access control, a system resource is defined as an object, and a user or process accessing a resource is defined as a subject.
