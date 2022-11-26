@@ -219,9 +219,9 @@ In all, Aptitude is a higher-level package managers that abstracts low level det
 The apt tool works with many commands. The following table provides the most common examples.
 
 | Command | Description |
-  ---
+  --------  ------------
 | update  | Gets the info about the latest versions of available packages but does not install any upgrades.
-  ---
+  --------  ------------------------------------------------------------------------------------------------
 | upgrade | Downloads the up-to-date package versions and upgrades installed packages to the new version.
   ---
 | full-upgrade | Upgrades the currently installed packages and removes packages not needed for the full system upgrade.
