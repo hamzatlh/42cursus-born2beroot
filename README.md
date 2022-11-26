@@ -32,27 +32,6 @@
 
 15  . [some commande to check](#somecommandetocheck)
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 ## 1)VIRTUALIZATION :
 Virtual Machine (VM) is a virtual environment built on a physical hardware system, with its own CPU, memory, network interfaces, and storage, and acting as a virtual computer system.
 It is not a real physical computer, but it works like a real computer and implements the functions of the main parts of the computer (CPU, memory, hard disk, etc.) in software.
