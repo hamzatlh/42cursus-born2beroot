@@ -26,6 +26,17 @@
 
 10  . [Filesystem Hierarchy Standard ](#AFilesystemHierarchyStandard )
 
+11  . [PAM  ](#PAM  )
+
+12  . [SSH ](#SSH )
+
+13  . [UFW ](#UFW )
+
+14  . [Script monitoring ](#Scriptmonitoring )
+
+15  . [some commande to check  ](#somecommandetocheck  )
+
+
 
 
 
@@ -371,7 +382,7 @@ The Filesystem Hierarchy Standard (FHS) is a reference describing the convention
 	Temporary files to be preserved between reboots. 
 
 
-11) PAM 
+## 11) PAM 
 Linux Pluggable Authentication Modules (PAM) is a suite of libraries that allows a Linux system administrator to configure methods to authenticate users. It provides a flexible and centralized way to switch authentication methods for secured applications by using configuration files instead of changing application code.[1] There are Linux PAM libraries allowing authentication using methods such as local passwords, LDAP, or fingerprint readers.[2] Linux PAM is evolved from the Unix Pluggable Authentication Modules architecture
 **Passwd***
 To set up a strong password policy, you must adhere to the following requirements:
@@ -393,7 +404,7 @@ The reason why the previous password rule of 7 characters does not apply is that
 passwd -e can change the user's password with . When you log in again after entering the command, you can set a new password to meet the applicable regulations.
 You can change your own password through passwd. If the -e option is used, root is also subject to difok, but if the command is executed without that option, root is not subject to difok.
 
-12)SSH
+## 12)SSH
 
 SSH (Secure Shell) is one of the network protocols used to securely communicate when computers communicate with each other through a public network. Since all processes from user authentication to data transmission are encrypted, security is very high.
 it is designed to replace the existing rsh, rlogin, telnet, etc. that were vulnerable in security (Secure shell) It's an abbreviation. It is connected to the network using the default port 22 and is used when connecting to another Linux server.
@@ -419,7 +430,7 @@ Hash function (Hashing): Hashing is basically one-way. The reason it is one-way 
 there is a possibility that someone (hacker) has already infiltrated the sender/receiver (client or host) and manipulated all information before the SSH connection is successfully established. In this case, the sender/receiver may continuously receive maliciously changed data without knowing anything.
 To prevent this, SSH has a procedure to check data integrity (whether the message sent by the sender has not been tampered with) through MAC (Message Authentication Code)
 
-13)UFW
+## 13)UFW
 
 As a configuration tool for iptables, it means an uncomplicated firewall.
 The server can be accessed from anywhere, so security may be weak. Accordingly, firewalls may already be used in hardware/software in your network configuration, but each server's firewall settings can be very useful.
@@ -431,7 +442,7 @@ Check firewall settings with ufw status
 when erasing
 **If you want to delete the policy, check the rules you want to delete with "sudo ufw status numbered" and then enter "sudo ufw delete rule number"
 
-14)Script monitoring
+## 14)Script monitoring
 *What is cron:
 When using unix-type operating systems (including Linux and MacOS), task scheduling is used when repetitive tasks are to be performed by time slot.
 *How to set up cron
