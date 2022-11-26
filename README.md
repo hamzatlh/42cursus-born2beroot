@@ -1,8 +1,9 @@
 # 42cursus - Born2beroot
 
 ## Table of Contents
+
 1 . [VIRTUALIZATION](#1VIRTUALIZATION)
-2 . [CentOS vs Debian difference](#2CentOSvsDebian difference)
+2 . [CentOS vs Debian difference](#2CentOSvsDebian)
 
 
 
